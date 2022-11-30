@@ -9,19 +9,19 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
      <div class="navbar-nav">
-       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-       <a class="nav-item nav-link" href="#">CAT Equipment</a>
-       <a class="nav-item nav-link" href="#">Allied Equipment</a>
+       <a class="nav-item nav-link active" routerLink="/Home" routerLinkActive="active">Home <span class="sr-only"></span></a>
+       <a class="nav-item nav-link" routerLink="/cat-equipment" routerLinkActive="active">CAT Equipment</a>
+       <a class="nav-item nav-link" routerLink="allied-equipment" routerLinkActive="active">Allied Equipment</a>
        <a class="nav-item nav-link" href="#">Trailers</a>
        </div>
     </div>
    </nav>
 
    <div class="bg-image">
-    <img src="https://wallpaperaccess.com/full/375093.jpg" class="w-100 img2" />
+    <img src="https://wallpaperaccess.com/full/375093.jpg" class="w-100 img2"/>
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"></div>
    </div>
   </div>
-<app-cat-equipment></app-cat-equipment>
-<app-allied-equipment></app-allied-equipment>
-<app-trailers></app-trailers>
+<router-outlet></router-outlet>
+<router-outlet></router-outlet>
+<router-outlet></router-outlet>

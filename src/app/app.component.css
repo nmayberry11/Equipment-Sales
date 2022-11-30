@@ -2,4 +2,8 @@
 .img1 {
   height: 85px;
 
+
 };
+.img2:hover {
+  opacity: .5;
+}

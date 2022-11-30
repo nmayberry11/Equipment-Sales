@@ -6,6 +6,7 @@ import { CatEquipmentComponent } from './cat-equipment/cat-equipment.component';
 import { AlliedEquipmentComponent } from './allied-equipment/allied-equipment.component';
 import { TrailersComponent } from './trailers/trailers.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { FormsModule } from '@angular/forms';
     TrailersComponent
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule, FormsModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
